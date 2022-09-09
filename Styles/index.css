@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #b4caf1 !important ;
+  background-color: #b4caf1 !important;
 }
 
 .add__new__btn {
@@ -15,8 +15,8 @@ body {
   size: 100%;
 }
 
-.modal__design{
-  background-color:rgba(22, 5, 116, 0.9) ;
+.modal__design {
+  background-color: rgba(22, 5, 116, 0.9);
   color: white;
   /* background: linear-gradient( 0deg, rgba(22, 5, 116, 0.9) 0%,
    rgba(237, 135, 208, 0.05) 100%, #cd18810d 100% ); */
