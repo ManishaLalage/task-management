@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #b4caf1 !important;
+  /* background-color: #b4caf1 !important; */
 }
 
 .add__new__btn {
@@ -14,10 +14,57 @@ body {
   z-index: 3;
   size: 100%;
 }
-
+.navbar-color{
+  background-color: #5a23c8;
+  /* background-color: #6610f2; */
+}
 .modal__design {
   background-color: rgba(22, 5, 116, 0.9);
   color: white;
-  /* background: linear-gradient( 0deg, rgba(22, 5, 116, 0.9) 0%,
-   rgba(237, 135, 208, 0.05) 100%, #cd18810d 100% ); */
+ 
 }
+.task__card__header{
+  /* background-color: #6610f2 !important; */
+  background-color: #5a23c8 !important;
+}
+
+.my__task__card__edit__button{
+  background-color: white !important  ;
+}
+
+
+.my__task__card__edit__button:hover{
+  background-color:aqua !important ;
+
+}
+
+.my__task__card__delete__button{
+  background-color: white !important;
+}
+.my__task__card__delete__button:hover{
+  background-color: brown !important;
+}
+
+.show__task__model__header{
+  background-color: #5a23c8;
+  color: #eeecf2;
+}
+.task__modal__body{
+  background:#c9b7ee;
+}
+
+.task__card{
+  background: green;
+}
+
+
+.my__task__card__body{
+  background-color: #c9b7ee;
+}
+  .my__task__card__open__btn {
+      --bs-btn-border-color: #5a23c8 !important;
+      --bs-btn-hover-color: #fff !important;
+      --bs-btn-hover-bg: #5a23c8 !important;
+      --bs-btn-hover-border-color: #5a23c8 !important;
+      --bs-btn-active-bg: #5a23c8 !important;
+    }

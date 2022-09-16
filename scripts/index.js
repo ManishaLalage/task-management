@@ -9,14 +9,14 @@ const htmlTaskContent = ({ id, title, description, type, url }) => `
   <div class='col-md-6 col-lg-4 mt-3' id=${id} key=${id}>
       <div class='card shadow-sm task__card'>
         <div class='card-header d-flex gap-2 justify-content-end task__card__header'>
-          <button type='button' class='btn btn-outline-info mr-2' name=${id} onclick="editTask.apply(this, arguments)">
+          <button type='button' class='btn btn-outline-info mr-2 my__task__card__edit__button' name=${id} onclick="editTask.apply(this, arguments)">
             <i class='fas fa-pencil-alt' name=${id}></i>
           </button>
-          <button type='button' class='btn btn-outline-danger mr-2' name=${id} onclick="deleteTask.apply(this, arguments)">
+          <button type='button' class='btn btn-outline-danger mr-2 my__task__card__delete__button' name=${id} onclick="deleteTask.apply(this, arguments)">
             <i class='fas fa-trash-alt' name=${id}></i>
           </button>
         </div>
-        <div class='card-body'>
+        <div class='card-body my__task__card__body'>
           ${url
     ? `<img width='100%' height='150px' style="object-fit: cover; object-position: center"  src=${url} alt='card image cap' 
      class='card-image-top md-3 rounded-lg' />`
@@ -35,7 +35,7 @@ const htmlTaskContent = ({ id, title, description, type, url }) => `
         <div class='card-footer'>
           <button 
           type='button' 
-          class='btn btn-outline-primary float-right' 
+          class='btn btn-outline-primary float-right my__task__card__open__btn' 
           data-bs-toggle='modal'
           data-bs-target='#showTask'
           id=${id}
